@@ -19,6 +19,8 @@ gem 'activerecord'
 gem 'erb'
 gem 'yaml'
 
+gem 'rest-client'
+
 gem 'pry'
 gem 'pry-byebug'
 gem 'pry-rails'

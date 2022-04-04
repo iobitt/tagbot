@@ -16,7 +16,8 @@ require 'dotenv'
 require 'yaml'
 require 'erb'
 
-require 'app/models/user'
+require 'app/models/team'
+require 'app/models/additional_field'
 
 require 'app/runner'
 
