@@ -1,0 +1,16 @@
+# TODO: написать нормальный docker-compose файл
+version: '3.4'
+
+services:
+  app:
+    tty: true
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - gem_cache:/usr/local/bundle/gems
+# TODO: добавить БД в volumes
+volumes:
+  gem_cache:
